@@ -204,10 +204,10 @@ jupyter notebook
 ## Visualizations
 
 ![Image from Power BI](screenshotsFromPowerBI/retial-sales1.png)
-![Image from Power BI](screenshotsFromPowerBI/retail-sales2.png)
-![Image from Power BI](screenshotsFromPowerBI/retail-sales3.png)
-![Image from Power BI](screenshotsFromPowerBI/retail-sales4.png)
-![Image from Power BI](screenshotsFromPowerBI/retail-sales5.png)
+![Image from Power BI](screenshotsFromPowerBI/retial-sales2.png)
+![Image from Power BI](screenshotsFromPowerBI/retial-sales3.png)
+![Image from Power BI](screenshotsFromPowerBI/retial-sales4.png)
+![Image from Power BI](screenshotsFromPowerBI/retial-sales5.png)
 ![Visualization](reports/figures/eda_overview.png)
 ![Visualization](reports/figures/holiday_promo_analysis.png)
 ![Visualization](reports/figures/store_analysis.png)
