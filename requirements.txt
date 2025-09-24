@@ -1,0 +1,69 @@
+# Retail Sales Forecasting - Python Dependencies
+# Rossmann Store Sales Project
+
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Time Series Forecasting
+prophet>=1.1.4
+# Note: Prophet requires additional system dependencies:
+# - On Windows: Install Microsoft Visual C++ 14.0 or greater
+# - On Linux/Mac: gcc compiler
+# Alternative installation: conda install -c conda-forge prophet
+
+# Statistical Analysis & Metrics
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Data Visualization & Plotting
+plotly>=5.0.0
+
+# Jupyter Notebook Environment
+jupyter>=1.0.0
+notebook>=6.0.0
+ipykernel>=6.0.0
+
+# Data Import/Export
+openpyxl>=3.0.0  # For Excel file support
+xlrd>=2.0.0      # For older Excel formats
+
+# Utilities
+tqdm>=4.62.0     # Progress bars
+warnings         # Built-in Python module
+
+# Development & Code Quality (Optional)
+flake8>=4.0.0    # Code linting
+black>=22.0.0    # Code formatting
+isort>=5.10.0    # Import sorting
+
+# System Requirements
+# Python >= 3.7 (Recommended: Python 3.8 or 3.9)
+
+# Installation Instructions:
+# 1. Create virtual environment (recommended):
+#    python -m venv retail_forecasting_env
+#    
+# 2. Activate virtual environment:
+#    Windows: retail_forecasting_env\Scripts\activate
+#    Linux/Mac: source retail_forecasting_env/bin/activate
+#    
+# 3. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 4. If Prophet installation fails, try:
+#    conda install -c conda-forge prophet
+#    OR
+#    pip install pystan==2.19.1.1 (then retry pip install prophet)
+
+# Alternative Conda Environment Setup:
+# conda create -n retail_forecasting python=3.9
+# conda activate retail_forecasting  
+# conda install -c conda-forge prophet pandas matplotlib seaborn scikit-learn jupyter plotly
+
+# Known Issues & Solutions:
+# - Prophet on Windows: May require Microsoft Visual C++ Build Tools
+# - Prophet on M1 Mac: Use conda-forge installation method
+# - If cmdstan errors: Install cmdstan separately or use conda environment

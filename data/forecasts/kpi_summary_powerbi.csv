@@ -1,0 +1,12 @@
+KPI_Name,Value,Category
+Total Historical Sales,"€5,873,180,623",Historical Performance
+Total Historical Customers,"644,041,755",Historical Performance
+Average Daily Sales (Historical),"€6,234,799",Historical Performance
+Best Performing Store ID,817,Store Performance
+Best Store Average Daily Sales,"€21,757",Store Performance
+Forecasted Total Sales,€0,Future Projections
+Average Forecasted Daily Sales,€0,Future Projections
+Forecast Period (Days),0,Future Projections
+Model MAPE,49.0%,Model Performance
+Model MAE,"€716,080",Model Performance
+Model RMSE,"€929,966",Model Performance

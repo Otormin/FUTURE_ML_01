@@ -1,0 +1,12 @@
+Dataset,Column_Name,Description,Data_Type
+master_data_powerbi.csv,Date,Date of sales record,Date
+master_data_powerbi.csv,Actual_Sales,Actual historical sales in euros,Numeric
+master_data_powerbi.csv,Forecasted_Sales,Prophet model forecasted sales in euros,Numeric
+master_data_powerbi.csv,Lower_Bound,Lower confidence bound for forecast,Numeric
+master_data_powerbi.csv,Upper_Bound,Upper confidence bound for forecast,Numeric
+master_data_powerbi.csv,Is_Forecast,Boolean flag: True for forecasted records,Boolean
+store_summary_powerbi.csv,Store,Store ID number,Numeric
+store_summary_powerbi.csv,Sales_mean,Average daily sales per store,Numeric
+store_summary_powerbi.csv,Sales_Category,Store performance category (Low/Medium/High/Very High),Categorical
+kpi_summary_powerbi.csv,KPI_Name,Key performance indicator name,Text
+seasonality_insights_powerbi.csv,Seasonality_Type,Type of seasonality (Monthly/Weekly),Categorical

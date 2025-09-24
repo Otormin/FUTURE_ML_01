@@ -1,0 +1,4 @@
+#Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+data/processed/rossmann_processed.csv

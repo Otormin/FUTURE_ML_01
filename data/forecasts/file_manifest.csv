@@ -1,0 +1,10 @@
+Filename,Purpose,Record_Count
+master_data_powerbi.csv,Main forecast dataset with historical + predicted sales,942
+store_summary_powerbi.csv,Store-level performance summary and categories,1115
+monthly_summary_powerbi.csv,Monthly aggregated sales and metrics,31
+weekly_summary_powerbi.csv,Weekly aggregated sales and trends,135
+day_of_week_summary_powerbi.csv,Day-of-week patterns and seasonality,7
+kpi_summary_powerbi.csv,Key performance indicators for dashboard cards,11
+seasonality_insights_powerbi.csv,Seasonal insights for monthly/weekly patterns,19
+data_dictionary.csv,Data dictionary explaining all columns,11
+PowerBI_Import_Guide.md,Step-by-step Power BI setup guide,N/A
